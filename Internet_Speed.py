@@ -10,8 +10,8 @@ class InternetSpeedTwitterBot:
         self.chrome_options.add_experimental_option("detach", True)
         self.driver = webdriver.Chrome(options=self.chrome_options)
         self.driver.get(url)
-        self.twitter_password = "Uttarakhand2255@"
-        self.twitter_username = "Adi1594538"
+        self.twitter_password = YOUR_TWITTER_PASSWORD
+        self.twitter_username = YOUR_TWITTER_USERNAME
 
 
     def get_internet_speed(self):
